@@ -1,0 +1,91 @@
+/* Basic reset and box-sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Full height layout */
+html, body {
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+/* Center the form on the page */
+.container {
+    display: flex;
+    flex-direction: column; /* Ensure elements stack vertically */
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+    height: 100%;
+    background-color: #f4f4f9;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center; /* Center the heading text */
+}
+
+/* Style the form */
+.signup-form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Style form labels and inputs */
+.signup-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #555;
+}
+
+.form-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Success message styling */
+.success-message {
+    color: green;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* Link styling */
+.back-link {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.back-link:hover {
+    background-color: #0056b3;
+}
